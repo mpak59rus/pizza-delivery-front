@@ -1,0 +1,61 @@
+@import "~bootstrap/scss/bootstrap";
+
+.menu-sidebar.modal.fade .modal-dialog {
+  transition: none;
+}
+.menu-sidebar.modal.fade {
+  transition: transform 0.3s ease-out, opacity 0.15s linear;
+}
+.menu-sidebar.modal.fade:not(.in).left {
+  transform: translate3d(-100%, 0, 0);
+}
+.menu-sidebar.modal.fade:not(.in).right {
+  transform: translate3d(100%, 0, 0);
+}
+.menu-sidebar.modal {
+  max-width: 100%;
+  box-shadow: 5px 0 10px;
+}
+.menu-sidebar.modal.left {
+  right: auto;
+}
+.menu-sidebar.modal.right {
+  left: auto;
+}
+
+.modal-header {
+  border-bottom-style: solid;
+  border-bottom-color: darken($teal, 15%);
+}
+
+.menu-sidebar.modal .modal-dialog {
+  border-left-style: groove;
+  border-left-width: 5px;
+  border-left-color: $teal;
+  border-bottom-left-radius: 20px;
+  background-color: $teal;
+  margin: 0 0 0 auto;
+  height: 100%;
+  width: auto;
+}
+.menu-sidebar.modal .modal-dialog .modal-content {
+  background-color: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.menu-sidebar.modal .modal-dialog .modal-content .modal-body {
+  padding: 12px;
+  ul li a:hover {
+    border-left: 8px solid #f5934e;
+    background-color: #182335;
+  }
+}
+.menu-sidebar.modal.fade:not(.in).left .modal-dialog {
+  transform: translate3d(-100%, 0, 0);
+}
+.menu-sidebar.modal.fade:not(.in).right .modal-dialog {
+  transform: translate3d(100%, 0, 0);
+}
+.menu-sidebar .nav {
+  width: 320px;
+}

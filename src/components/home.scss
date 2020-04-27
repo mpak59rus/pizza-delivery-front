@@ -1,0 +1,71 @@
+@import "~bootswatch/dist/journal/variables";
+
+@media (min-width: 768px) {
+  .header-blue {
+    padding-bottom: 120px;
+  }
+
+  .header-blue .hero {
+    margin-top: 60px;
+    text-align: left;
+  }
+
+  .hero h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 361px) {
+  .hero-btn-group a {
+    height: 64px;
+    font-size: 1.8em;
+    filter: blur(0px) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(84%);
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero-btn-group a {
+    font-size: 1.4rem;
+  }
+}
+
+.header-blue .hero {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  padding: 24px 0 32px;
+}
+
+.header-blue {
+  padding-top: 128px;
+}
+
+.header-blue .hero {
+  background-color: transparentize($danger, 0.5);
+  margin-top: 0;
+}
+
+.hero-btn-group {
+  padding: 32px 0 32px;
+}
+
+.hero-btn-group > div {
+  padding: 24px 64px 24px 64px;
+}
+
+.header-container {
+  margin-top: -82px;
+}

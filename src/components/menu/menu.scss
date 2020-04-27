@@ -1,0 +1,52 @@
+@import "~bootswatch/dist/journal/variables";
+
+.product-quantity {
+  border-width: 0;
+  width: 2.2rem;
+  height: 2rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.menu-category-container {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom-width: 2px;
+  border-bottom-color: $teal;
+  border-bottom-style: solid;
+}
+
+.meal-name-container {
+  border-top-width: 1px;
+  border-top-color: gray;
+  border-top-style: dashed;
+}
+
+.menu-item-container {
+  margin-bottom: 1rem;
+}
+
+.menu-item {
+  width: 100%;
+  padding: 0 1rem 0 1rem;
+}
+
+.menu-item img {
+  max-height: 300px;
+  max-width: 300px;
+  width: auto;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu-item .price-container {
+  background-color: unset;
+  font-size: 1.2rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.add-btn {
+  height: 2em;
+}

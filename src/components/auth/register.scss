@@ -1,0 +1,112 @@
+@import "~bootswatch/dist/journal/variables";
+
+@media (max-width: 767px) {
+  .register .illustration {
+    visibility: hidden;
+    position: absolute;
+  }
+  .register .form-container {
+    width: 60%;
+    border: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .register .form-container {
+    width: 90%;
+    border-width: 1px;
+    border-color: $teal;
+    border-style: solid;
+  }
+}
+
+@media (max-width: 575px) {
+  .register .form-container {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .register .form-container {
+    margin: 0 auto;
+    box-shadow: 6px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.register {
+  padding: 50px 0;
+}
+
+
+.register .illustration {
+  padding: 30px 0 0 64px;
+  text-align: center;
+  font-size: 200px;
+  color: $teal;
+  margin-right: auto;
+}
+
+.register .form-container {
+  display: flex;
+  max-width: 700px;
+}
+
+.register form {
+  display: table-cell;
+  width: 400px;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  border-color: $teal;
+  padding: 40px 60px;
+}
+
+@media (max-width: 991px) {
+  .register form {
+    padding: 40px;
+  }
+}
+
+.register form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register form .form-control {
+  background: #f7f9fc;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register form .btn-primary {
+  border: none;
+  border-radius: 12px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+}
+
+.register form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.9;
+  text-decoration: none;
+}
