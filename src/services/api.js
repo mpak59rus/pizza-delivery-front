@@ -1,6 +1,6 @@
 import {handleErrors} from "../helpers/error-handler";
 
-const API = 'http://api.pizza.local/api';
+const API = 'http://api.beerpirate.ru/api';
 
 export class ApiService {
     static _apiRequest(path, method, data, headers, promiseClass) {
